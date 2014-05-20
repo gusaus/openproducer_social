@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Social features for OpenProducer.
+ */
+
+include_once 'openproducer_social.features.inc';
+
+
