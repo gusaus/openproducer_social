@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Social features for OpenProducer.
+ * Social features for openproducer.
  */
 
 include_once 'openproducer_social.features.inc';
