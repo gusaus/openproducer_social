@@ -13,7 +13,11 @@ function openproducer_social_user_default_permissions() {
   // Exported permission: 'access service links'.
   $permissions['access service links'] = array(
     'name' => 'access service links',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'service_links',
   );
 
